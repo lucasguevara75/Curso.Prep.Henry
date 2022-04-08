@@ -38,39 +38,40 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
 
-var sumar = x + y;
-return sumar
+var sumar = x + y;              
+return sumar                     
 
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-return x - y ;
+   var restar = x - y
+   return restar
 }
 
 function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
+  // Multiplica "x" por "y" y devuelve el valor 
   // Tu código:
-  return x * y;
+  var multiplicar = x * y
+  return multiplicar
 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y
+  var dividir = x / y
+  return dividir
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-if(x===y){
-  return true
-} else {
-  return false
-}
+  if(x === y) {
+    return true
+  } return false
 
 }
 
@@ -80,20 +81,17 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if(str1.length === str2.length) {
     return true
-  } else {
-    return false
-  }
+  } return false
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-if (num < 90) {
-  return true
-} else {
-  return false
-}
+   if(num < 90){
+     return true
+   } return false
+
 
 }
 function mayorQueCincuenta(num) {
@@ -110,7 +108,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x % y
+  var resto = x % y
+  return resto
 }
 
 function esPar(num) {
